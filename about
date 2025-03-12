@@ -1,0 +1,46 @@
+# About Budget Tracker App
+
+The Budget Tracker App is a lightweight, command-line application designed to help you manage your personal finances. Whether you’re tracking daily expenses, monitoring your income, or analyzing spending patterns, this tool provides a straightforward approach to budget management.
+
+## Purpose
+
+This project was built to:
+- **Simplify Budget Management:** Easily record and review your financial transactions.
+- **Improve Financial Awareness:** Gain insights into your spending habits through clear visualizations.
+- **Provide a Learning Platform:** Serve as a hands-on project for developing skills in Python, data manipulation, and command-line interface design.
+
+## Key Features
+
+- **Transaction Management:**  
+  Add transactions with details such as date, category, and amount.  
+- **Monthly Summary:**  
+  View a summary of your total income, expenses, and overall balance.  
+- **Expense Visualization:**  
+  Generate pie charts to display how expenses are distributed across different categories.  
+- **CSV-Based Data Storage:**  
+  All transactions are saved in a CSV file (`data/transactions.csv`) for simplicity and easy access.
+
+## Technologies Used
+
+- **Python:** The primary programming language.
+- **pandas:** For data handling and CSV operations.
+- **matplotlib:** For creating visual charts.
+- **click:** For building a user-friendly command-line interface.
+
+## Future Enhancements
+
+Planned improvements include:
+- Adding filtering options (e.g., by date or category).
+- Developing a graphical user interface (GUI) using frameworks like Tkinter or PyQt.
+- Implementing multi-user support with authentication.
+
+## How to Contribute
+
+Contributions are welcome! If you have ideas, improvements, or bug fixes:
+1. Fork the repository.
+2. Create a new branch for your changes.
+3. Submit a pull request with detailed explanations of your modifications.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
